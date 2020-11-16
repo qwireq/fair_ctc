@@ -32,6 +32,8 @@ The example above will train a fresh model using the utterance split partition s
 To evaluate the model after training, you need to change TRAIN to False and EVAL, LOAD_MODEL, PERFORMANCE_EVAL to True. Also you can adjust batch size for your video RAM in
 config.train.batch_size.  
 
+Step 4: Run train_adv.py to train Fair CTC.
+
 ## Authors:
   Dias Issa, PhD candidate,  
   Artificial Intelligence and Machine Learning Laboratory (AIM Lab, https://slsp.kaist.ac.kr/xe/),  
