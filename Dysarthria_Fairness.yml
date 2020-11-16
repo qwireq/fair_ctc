@@ -145,3 +145,5 @@ dependencies:
     - noisereduce==1.1.0
     - typeguard==2.9.1
     - webrtcvad==2.0.10
+    - pytorch-revgrad==0.1.1
+    - ipdb==0.13.3
