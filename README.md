@@ -5,6 +5,12 @@ The script trains the CTC model based on Bi-directional LSTM encoder for ASR wit
 
 Results demonstrate significant reduction in perfromance gap, as well as, the increase of overall accuracy in ASR task.
 
+## Dependencies:
+Python 3.6, PyTorch 1.3.1, NumPy, OS, Librosa, Tensorflow 1.13.1, Tensorboard, CUDA 10  
+
+## Used material:
+UASPEECH database: http://www.isle.illinois.edu/speech_web_lg/data/UASpeech/index.shtml
+
 ## How to run:
 We have included the file Dysarthria_Fairness.yml to create the environment with conda.  
 
@@ -26,9 +32,6 @@ The example above will train a fresh model using the utterance split partition s
 To evaluate the model after training, you need to change TRAIN to False and EVAL, LOAD_MODEL, PERFORMANCE_EVAL to True. Also you can adjust batch size for your video RAM in
 config.train.batch_size.  
 
-## Dependencies:
-Python 3.6, PyTorch 1.3.1, NumPy, OS, Librosa, Tensorflow 1.13.1, Tensorboard, CUDA 10  
-
 ## Authors:
   Dias Issa, PhD candidate,  
   Artificial Intelligence and Machine Learning Laboratory (AIM Lab, https://slsp.kaist.ac.kr/xe/),  
@@ -43,9 +46,6 @@ Python 3.6, PyTorch 1.3.1, NumPy, OS, Librosa, Tensorflow 1.13.1, Tensorboard, C
   University of Illinois Urbana-Champaign,  
   Champaign, IL, USA,  
   harvill2@illinois.edu
-
-## Used material:
-UASPEECH database: http://www.isle.illinois.edu/speech_web_lg/data/UASpeech/index.shtml
 
   
 
